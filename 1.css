@@ -1,0 +1,38 @@
+*{margin: 0;padding: 0;}
+.wraper_top
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+.header
+{
+  width: 100vw;
+  height: 10vh;
+  background: #4affae75;
+  z-index: 10000;
+}
+.footer
+{
+  width: 100vw;
+  height: 10vh;
+  background: #fcff4a7f;
+  z-index: 10000;
+}
+
+.wraper_content
+{
+  background: #b91313;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 10vh;
+  z-index: 2;
+}
