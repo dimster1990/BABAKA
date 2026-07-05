@@ -116,14 +116,14 @@ body
 
 #side_image_inside
 {
-  background: url(images/background_1.png) center / contain no-repeat;
+  background: url(images/image_1.png) center / contain no-repeat;
   backdrop-filter: blur(10px) contrast(0.5);
   width: 20vw;
   height: 90vh;
 }
 #side_image
 {
-  background: url(images/background_1.png) center center;
+  background: url(images/image_1.png) center center;
   width: 20vw;
   height: 90vh;
 }
