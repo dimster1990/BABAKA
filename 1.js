@@ -44,6 +44,7 @@ function menu_pager(_page)
     pages.innerHTML = _page_[_page];
     localStorage.setItem("cash_page_number", _page);
     page_marker(_page);
+    pages.scrollTo({top: 0,behavior: 'smooth'});
 }
 
 function page_marker(_page)
