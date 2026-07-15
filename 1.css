@@ -10,6 +10,24 @@ body
   width: 100vw;
   height: 100vh;
 }
+
+#imager
+{
+    width: 95vw;
+    height: 95vh;
+    position: fixed;
+    top: 2.5vh;
+    left: 2.5vw;
+    z-index: 100;
+    background: url(images/image_1.png) center / contain no-repeat;
+    backdrop-filter: blur(2vh) contrast(0.5);
+    border-radius: 5vh;
+}
+.imager
+{
+    display: none;
+}
+
 .wraper_top
 {
   width: 100vw;
@@ -117,7 +135,7 @@ body
 #side_image_inside
 {
   background: url(images/image_1.png) center / contain no-repeat;
-  backdrop-filter: blur(10px) contrast(0.5);
+  backdrop-filter: blur(2vh) contrast(0.5);
   width: 20vw;
   height: 90vh;
 }
