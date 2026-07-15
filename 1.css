@@ -52,9 +52,7 @@ body
 
 .logotype
 {
-  background: url(images/lotype.png);
-  background-size: cover;
-  background-position: center;
+  background: url(images/lotype.png) center / contain no-repeat;
   width: 17vw;
   height: 10vh;
 }
