@@ -14,15 +14,12 @@ body
 
 #imager
 {
-    width: 100vw;//95vw;
-    height: 100vh;//95vh;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
-    //top: 2.5vh;
-    //left: 2.5vw;
     z-index: 100;
     background: url(images/image_1.png) center / contain no-repeat;
-    backdrop-filter: blur(2vh);// contrast(0.5);
-    //border-radius: 5vh;
+    backdrop-filter: blur(2vh);
     cursor: pointer;
 }
 .imager
@@ -59,9 +56,21 @@ body
 
 .logotype
 {
-  background: url(images/lotype.png) center / contain no-repeat;
+  background: url(images/lotype.png) top center / contain no-repeat;
   width: 17vw;
   height: 8vh;
+}
+.logotype_hover
+{
+  background: url(images/lotype_hover.png) top center / contain no-repeat;
+  width: 17vw;
+  height: 8vh;
+  opacity: 0;
+  cursor: pointer;
+}
+.logotype_hover:hover
+{
+    opacity: 1;
 }
 .main_menu
 {
@@ -117,7 +126,7 @@ body
   border-radius: 5vh;
 }
 
-.reader
+.book_reader
 {
   width: 90vw;
   height: 89vh;
@@ -129,7 +138,7 @@ body
   align-items: flex-start;
 }
 
-#side_image_inside
+#book_side_image_inside
 {
   background: center / contain no-repeat;
   backdrop-filter: blur(2vh) contrast(0.5);
@@ -137,26 +146,25 @@ body
   height: 89vh;
   cursor: pointer;
 }
-#side_image
+#book_side_image
 {
   background: center center;
   width: 20vw;
   height: 89vh;
   cursor: pointer;
 }
-#pages
+#book_pages
 {
   width: 55vw;
   height: 89vh;
   overflow: auto;
   scrollbar-width: thin;
   scrollbar-color: #ffffff5c #00000000;
-  background: linear-gradient(0deg, #302f3aef, #282733e1);//#302f3a;
+  background: linear-gradient(0deg, #302f3aef, #282733e1);
 
 }
-#side_titles
+#book_side_titles
 {
-
   width: 15vw;
   height: 89vh;
   overflow: auto;
