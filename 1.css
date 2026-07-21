@@ -3,6 +3,12 @@
   margin: 0;
   padding: 0;
   color: #fff;
+  cursor: default;
+}
+*::selection
+{
+    color: #2c2b37;
+    background-color: #e5e5ee;
 }
 body
 {
