@@ -1,9 +1,10 @@
 let _main_menu = 
-                    '<div class = "menu_link" id = "menu_link_1" onclick="main_menu_items(0)">О проекте</div>' +
-                    '<div class = "menu_link" id = "menu_link_2" onclick="main_menu_items(1)">Книга</div>' +
-                    '<div class = "menu_link" id = "menu_link_3" onclick="main_menu_items(2)">menu link 3</div>' +
-                    '<div class = "menu_link" id = "menu_link_4" onclick="main_menu_items(3)">menu link 4</div>' +
-                    '<div class = "menu_link" id = "menu_link_5" onclick="main_menu_items(4)">menu link 5</div>';
+                '<div class = "menu_link" id = "menu_link_1" onclick = "main_menu_items(0)" alt = "About project">About project</div>' +
+                '<div class = "menu_link" id = "menu_link_2" onclick="main_menu_items(1)">Книга</div>' +
+                '<div class = "menu_link" id = "menu_link_3" onclick="main_menu_items(2)">menu link 3</div>' +
+                '<div class = "menu_link" id = "menu_link_4" onclick="main_menu_items(3)">menu link 4</div>' +
+                '<div class = "menu_link" id = "menu_link_5" onclick="main_menu_items(4)">menu link 5</div>' +
+                '<div class = "menu_link" id = "menu_link_6" onclick="main_menu_items(5)">menu link 6</div>';
 
 
 let _cash_item_number = localStorage.getItem("cash_item_number") != null ? localStorage.getItem("cash_item_number") : 0;
