@@ -54,28 +54,10 @@ body
   border-radius: 5vh;
 }
 
-.logotype
-{
-  background: url(images/lotype.png) top center / contain no-repeat;
-  width: 17vw;
-  height: 8vh;
-}
-.logotype_hover
-{
-  background: url(images/lotype_hover.png) top center / contain no-repeat;
-  width: 17vw;
-  height: 8vh;
-  opacity: 0;
-  cursor: pointer;
-}
-.logotype_hover:hover
-{
-    opacity: 1;
-}
 .main_menu
 {
-  width: 72vw;
-  height: 6vh;
+  width: 89vw;
+  height: 8vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,6 +84,33 @@ body
 {
   background: #454453;
   cursor: pointer;
+}
+
+.menu_link:first-child,.menu_link_active:first-child
+{
+  background: url(images/lotype.png) top center / contain no-repeat;
+  width: 17vw;
+  height: 8vh;
+  border-radius: 0;
+  font-size: 0;
+}
+.menu_link_active:first-child
+{
+  background: url(images/lotype_active.png), radial-gradient(#656476, #65647600, #65647600);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.menu_link:first-child:hover
+{
+  background: url(images/lotype_hover.png) top center / contain no-repeat;
+}
+.menu_link_active:first-child:hover
+{
+  background: url(images/lotype_hover.png), radial-gradient(#838295, #65647600, #65647600);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .wraper_content
