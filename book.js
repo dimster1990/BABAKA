@@ -52,17 +52,16 @@ function book_scroll_load()
     book_pages.scrollTo({top: _book_cash_page_scrolltop, behavior: 'smooth'});
 }
 
-
+let _scroll_top = 0;
 setInterval(() => 
     {
         if(menu_link_1.className == "menu_link_active")
         {
-            let _scroll_top = 0;
             if(_scroll_top != book_pages.scrollTop)
             {
                 localStorage.setItem("book_cash_page_scrolltop", book_pages.scrollTop);
                 _scroll_top = book_pages.scrollTop;
-                tester.innerHTML = _scroll_top;
+                tester.innerHTML = "_scroll_top ~ " + _scroll_top;//////////////////////////////////////
             }
         }
     }, 1000);

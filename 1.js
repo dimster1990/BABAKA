@@ -1,4 +1,4 @@
-let _main_menu = ['About project', 'The book', 'Galary', '4', '5', '6'];
+let _main_menu = ['About project', 'The book', 'Gallery', '4', '5', '6'];
 
 
 let _cash_item_number = localStorage.getItem("cash_item_number") != null ? localStorage.getItem("cash_item_number") : 0;
@@ -20,8 +20,7 @@ function main_menu_items(_item)
 
     if(_item == 0)
     {
-        about();
-        //alert(menu_link_1.className == "menu_link_active");
+        menu_link_0.className == "menu_link" ? about() : null;
     }
 
     if(_item == 1)
@@ -29,22 +28,22 @@ function main_menu_items(_item)
         menu_link_1.className == "menu_link" ? book() + book_scroll_load() : null;
     }
 
-    if(_item == 0)
+    if(_item == 2)
     {
-       // tester(1);
+       menu_link_2.className == "menu_link" ? gallery() : null;
     }
 
-    if(_item == 0)
+    if(_item == 3)
     {
         //tester(1);
     }
 
-    if(_item == 0)
+    if(_item == 4)
     {
         //tester(1);
     }
     
-    if(_item == 0)
+    if(_item == 5)
     {
         //tester(1);
     }
@@ -75,16 +74,3 @@ function view_off()
 
 
 main_menu_items(_cash_item_number);
-
-
-setInterval(() => 
-    {
-        if(menu_link_1.className == "menu_link_active")
-        {
-            if(tester.textContent != book_pages.scrollTop)
-            {
-                localStorage.setItem("book_cash_page_scrolltop", book_pages.scrollTop);
-                tester.innerHTML = book_pages.scrollTop;
-            }
-        }
-    }, 1000);
