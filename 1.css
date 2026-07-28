@@ -311,6 +311,7 @@ p
   margin: 2vw;
   width: 10vw;
   height: 10vw;
+  cursor: pointer;
 }
 .gallery_image:hover
 {
