@@ -291,6 +291,57 @@ p
   box-shadow: inset 0 0 4vh 2vh #8b8b8b30;
 }
 
+.characters_content
+{
+  display: flex;
+  width: 90vw;
+  height: 89vh;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: flex-start;
+
+}
+.characters_scroll
+{
+  width: 15vw;
+  height: 89vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-width: none;
+  scrollbar-color: #ffffff5c #00000000;
+}
+#hcaracters
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+#characters_image
+{
+  background: rgb(255, 0, 170);
+  width: 20vw;
+  height: 89vh;
+}
+#characters_text
+{
+  background: rgb(208, 255, 0);
+  width: 55vw;
+  height: 89vh;
+}
+.character
+{
+  background: #1456f0;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 100vw;
+  margin: 3vh 0;
+}
 
 
 
