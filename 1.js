@@ -4,6 +4,7 @@ let _main_menu = ['About project', 'The book', 'Characters', 'Gallery', '5', 'Ac
 let _cash_item_number = localStorage.getItem("cash_item_number") != null ? localStorage.getItem("cash_item_number") : 0;
 let _book_cash_page_number = localStorage.getItem("book_cash_page_number") != null ? localStorage.getItem("book_cash_page_number") : 0;
 let _book_cash_page_scrolltop = localStorage.getItem("book_cash_page_scrolltop") != null ? localStorage.getItem("book_cash_page_scrolltop") : 0;
+let _book_cash_contents_scrollmenu = localStorage.getItem("book_cash_contents_scrollmenu") != null ? localStorage.getItem("book_cash_contents_scrollmenu") : 0;
 
 for (let i = 0; i < _main_menu.length; i++)
     {
@@ -27,14 +28,14 @@ function main_menu_items(_item)
 
     if(_item == 2)
     {
-       
+        menu_link_2.className == "menu_link" ? characters() : null;
     }
 
     if(_item == 3)
     {
-        menu_link_2.className == "menu_link" ? gallery() : null;
+        menu_link_3.className == "menu_link" ? gallery() : null;
     }
-
+    
     if(_item == 4)
     {
         //tester(1);
@@ -42,7 +43,7 @@ function main_menu_items(_item)
     
     if(_item == 5)
     {
-        //tester(1);
+        menu_link_5.className == "menu_link" ? achievements() : null;
     }
 
     item_marker(_item);
