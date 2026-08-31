@@ -8,6 +8,7 @@ function gallery()
                             '<h2>Gallery</h2>' +
                             gallery_imager(3, 12) +
                             '<p>text about images</p>' +
+                            
                         '</div>';
 }
 

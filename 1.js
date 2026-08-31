@@ -1,4 +1,4 @@
-let _main_menu = ['About project', 'The book', 'Gallery', '4', '5', '6'];
+let _main_menu = ['About project', 'The book', 'Characters', 'Gallery', '5', 'Achievements'];
 
 
 let _cash_item_number = localStorage.getItem("cash_item_number") != null ? localStorage.getItem("cash_item_number") : 0;
@@ -12,9 +12,6 @@ for (let i = 0; i < _main_menu.length; i++)
 
 function main_menu_items(_item)
 {
-    //main_menu.innerHTML = _main_menu;
-    
-    //item_marker(_item);
 
     localStorage.setItem("cash_item_number", _item);
 
@@ -30,12 +27,12 @@ function main_menu_items(_item)
 
     if(_item == 2)
     {
-       menu_link_2.className == "menu_link" ? gallery() : null;
+       
     }
 
     if(_item == 3)
     {
-        //tester(1);
+        menu_link_2.className == "menu_link" ? gallery() : null;
     }
 
     if(_item == 4)

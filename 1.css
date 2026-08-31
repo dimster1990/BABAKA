@@ -112,33 +112,6 @@ body
   cursor: pointer;
 }
 
-.menu_link:first-child,.menu_link_active:first-child
-{
-  background: url(images/lotype.png) top center / contain no-repeat;
-  width: 17vw;
-  height: 8vh;
-  border-radius: 0;
-  font-size: 0;
-}
-.menu_link_active:first-child
-{
-  background: url(images/lotype_active.png), radial-gradient(#656476, #65647600, #65647600);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-.menu_link:first-child:hover
-{
-  background: url(images/lotype_hover.png) top center / contain no-repeat;
-}
-.menu_link_active:first-child:hover
-{
-  background: url(images/lotype_hover.png), radial-gradient(#838295, #65647600, #65647600);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .wraper_content
 {
   width: 100vw;
@@ -209,7 +182,7 @@ body
 }
 
 
-.contents
+#book_contents
 {
   /* background: linear-gradient(0deg, #302f3aef, #282733e1); */
   width: 15vw;
@@ -316,4 +289,90 @@ p
 .gallery_image:hover
 {
   box-shadow: inset 0 0 4vh 2vh #8b8b8b30;
+}
+
+
+
+
+
+@media (orientation: Portrait) {
+  .main_menu
+  {
+    width: 96vw;
+    height: 86vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .header
+  {
+    width: 96vw;
+    top: 1vh;
+    left: 2vw;
+    position: fixed;
+    height: 98vh;
+    display: flex;
+    z-index: 10000;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background: linear-gradient(0deg, #302f3aef, #282733e1);
+    border-radius: 5vh;
+  }
+  .wraper_top
+  {
+    z-index: 1000;
+  }
+  .main_menu_open_close
+  {
+    display: block;
+    width: 96vw;
+    height: 8vh;
+    background: #0f0;
+    margin: 0 0 2vh 0;
+  }
+  .menu_link, .menu_link_active
+  {
+    color: #fff;
+    width: 90vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5vh;
+    font-size: 2.5vh;
+  }
+}
+@media (orientation: landscape)
+{
+  .menu_link:first-child,.menu_link_active:first-child
+  {
+    background: url(images/lotype.png) center center / contain no-repeat;
+    width: 17vw;
+    height: 8vh;
+    border-radius: 0;
+    font-size: 0;
+  }
+  .menu_link_active:first-child
+  {
+    background: url(images/lotype_active.png), radial-gradient(#656476, #65647600, #65647600);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .menu_link:first-child:hover
+  {
+    background: url(images/lotype_hover.png) center center / contain no-repeat;
+  }
+  .menu_link_active:first-child:hover
+  {
+    background: url(images/lotype_hover.png), radial-gradient(#838295, #65647600, #65647600);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
