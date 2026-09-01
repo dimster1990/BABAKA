@@ -4,7 +4,7 @@ function characters()
 {
     content.innerHTML = "<div class = 'characters_content'>" +
                             "<div class = 'characters_scroll'>" +
-                                "<div id = 'characters'>" +
+                                "<div id = 'characters_scrl'>" +
                                     "<div class = 'character'></div>"+
                                     "<div class = 'character'></div>"+
                                     "<div class = 'character'></div>"+
@@ -16,8 +16,164 @@ function characters()
                                     "<div class = 'character'></div>"+
                                 "</div>"+
                             "</div>" +
-                            "<div id = 'characters_image'></div>" +
-                            "<div id = 'characters_text'></div>" +
+                            "<div class = 'character_images'>" +
+                                "<div id = 'character_img'>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                    "<div class = 'character_image'></div>" +
+                                "</div>" +
+                            "</div>" +
+                            "<div class = 'character_texts'>" +
+                                "<div class = 'character_text'>" +
+                                    "<div id = 'character_txt'>" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                        "sasf f af asdfa sdasdaf asf af rgcvh6zg  fsg g fd dfsetg  gfg fg reg df xdsgh df" +
+                                    "</div>" +
+                                "</div>" +
+                            "</div>" +
                         "</div>";
 }
 
