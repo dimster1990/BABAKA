@@ -55,24 +55,101 @@ function book_scroll_load()
     book_contents.scrollTo({top: _book_cash_contents_scrollmenu, behavior: 'smooth'});
 }
 
+
+
+
+
+
+
+//////////////////////////////////---~ TESTER ~---////////////////////////////////////
 let _scroll_top = 0;
+
+
+tester.innerHTML = '<div id = "tester_scroll_top">_scroll_top ~ ...</div>' +
+                   '<div id = "tester_scroll_menu">_scroll_menu ~ ...</div>' +
+                   '<div id = "tester_position_key_item">_position_key_item ~ ...</div>' +
+                   '<div id = "tester_position_cursor">_position_cursor ~ ...</div>' +
+                   '<div id = "tester_screen_height">_screen_height ~ ...</div>';
+
+setInterval(() => 
+    {
+        if(menu_link_1.className == "menu_link_active")
+        {
+            if(_scroll_top != book_pages.scrollTop )
+            {
+                localStorage.setItem("book_cash_page_scrolltop", book_pages.scrollTop);
+                _scroll_top = book_pages.scrollTop;
+                tester_scroll_top.innerHTML = "_scroll_top ~ " + _scroll_top;//////////////////////////////////////
+            }
+        }
+    }, 1000);
+
 let _scroll_menu = 0;
 setInterval(() => 
     {
         if(menu_link_1.className == "menu_link_active")
         {
-            if(_scroll_top != book_pages.scrollTop || _scroll_menu != book_contents.scrollTop)
+            if(_scroll_menu != book_contents.scrollTop)
             {
-                localStorage.setItem("book_cash_page_scrolltop", book_pages.scrollTop);
-                _scroll_top = book_pages.scrollTop;
-
                 localStorage.setItem("book_cash_contents_scrollmenu", book_contents.scrollTop);
                 _scroll_menu = book_contents.scrollTop;
-                
-                tester.innerHTML = "_scroll_top ~ " + _scroll_top + "<br />_scroll_menu ~ " + _scroll_menu;//////////////////////////////////////
+                tester_scroll_menu.innerHTML = "_scroll_menu ~ " + _scroll_menu;//////////////////////////////////////
             }
         }
     }, 1000);
+
+let _position_key_item = 0;
+setInterval(() => 
+    {
+        if(menu_link_1.className == "menu_link_active")
+        {
+            /* if(_scroll_menu != book_contents.scrollTop)
+            {
+                localStorage.setItem("book_cash_contents_scrollmenu", book_contents.scrollTop);
+                _scroll_menu = book_contents.scrollTop;
+                tester_scroll_menu.innerHTML = "_scroll_menu ~ " + _scroll_menu;//////////////////////////////////////
+            } */
+            tester_position_key_item.innerHTML = '_position_key_item ~ ' + Math.round(tester_key_item.getBoundingClientRect().top);
+        }
+    }, 1000);
+
+let _position_cursor = 0;
+setInterval(() => 
+{
+    if(menu_link_1.className == "menu_link_active")
+    {
+        /* if(_scroll_menu != book_contents.scrollTop)
+        {
+            localStorage.setItem("book_cash_contents_scrollmenu", book_contents.scrollTop);
+            _scroll_menu = book_contents.scrollTop;
+            tester_scroll_menu.innerHTML = "_scroll_menu ~ " + _scroll_menu;//////////////////////////////////////
+        } */
+
+            document.addEventListener('mousemove', function (event) {
+            window.lastMouseX = event.clientX;
+            window.lastMouseY = event.clientY;
+            }, {once: true});
+
+        tester_position_cursor.innerHTML = '_position_cursor ~ ' + window.lastMouseX + " : " + 
+        window.lastMouseY;
+    }
+}, 200);
+
+let _screen_height = 0;
+//offsetHeight;
+setInterval(() => 
+{
+    if(menu_link_1.className == "menu_link_active")
+    {
+        tester_screen_height.innerHTML = book_pages.offsetHeight;
+        tester_box.style.cssText = "width: " + book_pages.offsetWidth + "px; height: " + book_pages.offsetHeight + "px; left: " + Math.round(book_pages.getBoundingClientRect().left) + "px; top: " + Math.round(book_pages.getBoundingClientRect().top) + "px;";
+    }
+}, 200);
+//////////////////////////////////---~ TESTER ~---////////////////////////////////////
+
+
+
+
 
 
 let _book = '<div class = "book_reader">' +
@@ -100,6 +177,7 @@ _book_page_[0] =
     '<p>Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст.</p>' +
     '<p>Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. </p>' +
     '<h2>Название главы</h2>' + 
+    '<div id = "tester_key_item">tester_key_item</div>' +
     '<p>Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. </p>' + 
     '<p>Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. </p>';
 
@@ -114,7 +192,7 @@ _book_page_[1] =
     '<p>Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. </p>' + 
     '<p>Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. Текст-текст разный текст, еще текст, слова, всякое разное и текст. </p>';
 
-    //-----------------------------------------------------page_001-----------------------------------------------------
+    //-----------------------------------------------------page_003-----------------------------------------------------
 _book_page_name [2] = "глава 3"
 _book_page_[2] = 
     '<h1>Название книги 3</h1>' + 

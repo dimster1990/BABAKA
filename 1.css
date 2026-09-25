@@ -1,21 +1,32 @@
 #tester {
-    position: fixed;
-    top: 2px;
-    left: 2px;
-    background: #000000bd;
-    color: #0f0;
-    /* width: 200px; */
-    /* height: 150px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    box-shadow: inset 0 0 0px 1px #0f0;
-    font-size: 15px;
-    text-shadow: 0 0 4px #0f0;
-    font-family: monospace;
-    overflow: auto;
-    flex-direction: column;
+  position: fixed;
+  top: 2px;
+  left: 2px;
+  background: #000000bd;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  box-shadow: inset 0 0 0px 1px #0f0;
+  font-family: monospace;
+  overflow: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  pointer-events: none
+}
+#tester > div
+{
+  text-shadow: 0 0 4px #0f0;
+  color: #0f0;
+  font-size: 15px;
+  pointer-events: none
+}
+
+#tester_box
+{
+  position: fixed;
+  z-index: 1000;
+  box-shadow: inset 0 0 0px 1px #0ef;
+  pointer-events: none
 }
 
 *
