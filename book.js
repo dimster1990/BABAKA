@@ -145,6 +145,27 @@ setInterval(() =>
         tester_box.style.cssText = "width: " + book_pages.offsetWidth + "px; height: " + book_pages.offsetHeight + "px; left: " + Math.round(book_pages.getBoundingClientRect().left) + "px; top: " + Math.round(book_pages.getBoundingClientRect().top) + "px;";
     }
 }, 200);
+
+
+
+/* 
+let _screen_height = 0;
+setInterval(() => 
+{
+    if(menu_link_1.className == "menu_link_active")
+    {
+        tester_screen_height.innerHTML = book_pages.offsetHeight;
+        if(Math.round(tester_key_item.getBoundingClientRect().top) < book_pages.offsetHeight + Math.round(book_pages.getBoundingClientRect().top) && Math.round(tester_key_item.getBoundingClientRect().top) > book_pages.getBoundingClientRect().top)
+        {
+            tester_position_key_item.style.cssText = "color: #f00; text-shadow: 0 0 4px #f00;";
+        }
+        else
+        {
+            tester_position_key_item.style.cssText = "color: #0f0; text-shadow: 0 0 4px #0f0;";
+        }
+        
+    }
+}, 200); */
 //////////////////////////////////---~ TESTER ~---////////////////////////////////////
 
 
