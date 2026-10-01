@@ -113,7 +113,7 @@ setInterval(() =>
         }
     }, 1000);
 
-let _position_key_item = 0;
+/* let _position_key_item = 0;
 setInterval(() => 
     {
         if(menu_link_1.className == "menu_link_active")
@@ -121,7 +121,7 @@ setInterval(() =>
             tester_position_key_item.innerHTML = '_position_key_item ~ ' + Math.round(tester_key_item.getBoundingClientRect().top);
             //tester_position_key_item.style.cssText = "color: #f00; text-shadow: 0 0 4px #f00;"
         }
-    }, 1000);
+    }, 1000); */
 
 let _position_cursor = 0;
 setInterval(() => 
@@ -135,7 +135,7 @@ setInterval(() =>
     tester_cursor.style.cssText = "left: " + window.lastMouseX + "px; top: " + window.lastMouseY + "px;";
 }, 10);
 
-let _screen_height = 0;
+/* let _screen_height = 0;
 setInterval(() => 
 {
     if(menu_link_1.className == "menu_link_active")
@@ -150,5 +150,5 @@ setInterval(() =>
             tester_position_key_item.style.cssText = "color: #0f0; text-shadow: 0 0 4px #0f0;";
         }
     }
-}, 200);
+}, 200); */
 //////////////////////////////////---~ TESTER ~---////////////////////////////////////
