@@ -25,8 +25,33 @@
 {
   position: fixed;
   z-index: 1000;
-  box-shadow: inset 0 0 0px 1px #0ef;
+  box-shadow: inset 0 0 0 0.3vh #0ef;
   pointer-events: none
+}
+
+#tester_cursor
+{
+  width: 3vh;
+  height: 3vh;
+  box-shadow: inset 0 0 0 0.2vh #ffffff8e;
+  background: #8383836c;
+  position: absolute;
+  z-index: 100001;
+  pointer-events: none;
+  margin-left: -1.5vh;
+  margin-top: -1.5vh;
+  border-radius: 100vh;
+}
+.tester_cursor
+{
+  position: absolute;
+  pointer-events: none;
+  z-index: 100000;
+  width: 100vw;
+  height: 100vh;
+  /* background: rgba(255, 0, 0, 0.308); */
+  overflow: hidden;
+  
 }
 
 *
@@ -34,7 +59,10 @@
   margin: 0;
   padding: 0;
   color: #fff;
-  cursor: default;
+  /* cursor: default; */
+  cursor: none;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
 }
 *::selection
 {
@@ -57,7 +85,7 @@ body
   z-index: 100;
   background: url(images/image_1.png) center / contain no-repeat;
   backdrop-filter: blur(2vh);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .imager
 {
@@ -109,7 +137,7 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  /* cursor: pointer; */
   border-radius: 5vh;
   font-size: 2.5vh;
 }
@@ -120,7 +148,7 @@ body
 .menu_link:hover
 {
   background: #454453;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .wraper_content
@@ -166,14 +194,14 @@ body
   backdrop-filter: blur(2vh) contrast(0.5);
   width: 20vw;
   height: 89vh;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 #book_side_image
 {
   background: center center;
   width: 20vw;
   height: 89vh;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 #book_pages
 {
@@ -223,7 +251,7 @@ body
   border-radius: 5vh;
   margin: 1vh 0 1vh 0;
   text-align: center;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-size: 2.5vh;
 }
 
@@ -239,7 +267,7 @@ body
   border-radius: 5vh;
   margin: 1vh 0 1vh 0;
   text-align: center;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-size: 2.5vh;
 }
 
@@ -267,9 +295,16 @@ p
   float: none;
   width: stretch;
   text-indent: 8vh;
-  font-size: 2.5vh;
+  font-size: 2.3vh;
   line-height: 4vh;
   padding: 2vw;
+  font-style: italic;
+  
+}
+b
+{
+  font-style: normal;
+  font-size: 2.4vh;
 }
 
 
@@ -295,7 +330,7 @@ p
   margin: 2vw;
   width: 10vw;
   height: 10vw;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .gallery_image:hover
 {
@@ -349,7 +384,7 @@ p
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    /* cursor: pointer; */
     border-radius: 5vh;
     font-size: 2.5vh;
   }

@@ -72,3 +72,83 @@ function view_off()
 
 
 main_menu_items(_cash_item_number);
+
+
+
+//////////////////////////////////---~ TESTER ~---////////////////////////////////////
+
+
+
+tester.innerHTML = '<div id = "tester_scroll_top">_scroll_top ~ ...</div>' +
+                   '<div id = "tester_scroll_menu">_scroll_menu ~ ...</div>' +
+                   '<div id = "tester_position_key_item">_position_key_item ~ ...</div>' +
+                   '<div id = "tester_position_cursor">_position_cursor ~ ...</div>' +
+                   '<div id = "tester_screen_height">_screen_height ~ ...</div>';
+
+let _scroll_top = 0;
+setInterval(() => 
+    {
+        if(menu_link_1.className == "menu_link_active")
+        {
+            if(_scroll_top != book_pages.scrollTop )
+            {
+                localStorage.setItem("book_cash_page_scrolltop", book_pages.scrollTop);
+                _scroll_top = book_pages.scrollTop;
+                tester_scroll_top.innerHTML = "_scroll_top ~ " + _scroll_top;//////////////////////////////////////
+            }
+        }
+    }, 1000);
+
+let _scroll_menu = 0;
+setInterval(() => 
+    {
+        if(menu_link_1.className == "menu_link_active")
+        {
+            if(_scroll_menu != book_contents.scrollTop)
+            {
+                localStorage.setItem("book_cash_contents_scrollmenu", book_contents.scrollTop);
+                _scroll_menu = book_contents.scrollTop;
+                tester_scroll_menu.innerHTML = "_scroll_menu ~ " + _scroll_menu;//////////////////////////////////////
+            }
+        }
+    }, 1000);
+
+let _position_key_item = 0;
+setInterval(() => 
+    {
+        if(menu_link_1.className == "menu_link_active")
+        {
+            tester_position_key_item.innerHTML = '_position_key_item ~ ' + Math.round(tester_key_item.getBoundingClientRect().top);
+            //tester_position_key_item.style.cssText = "color: #f00; text-shadow: 0 0 4px #f00;"
+        }
+    }, 1000);
+
+let _position_cursor = 0;
+setInterval(() => 
+{
+    document.addEventListener('mousemove', function (event) {
+    window.lastMouseX = event.clientX;
+    window.lastMouseY = event.clientY;
+    }, {once: true});
+
+    tester_position_cursor.innerHTML = '_position_cursor ~ ' + window.lastMouseX + " : " + window.lastMouseY;
+    tester_cursor.style.cssText = "left: " + window.lastMouseX + "px; top: " + window.lastMouseY + "px;";
+}, 10);
+
+let _screen_height = 0;
+setInterval(() => 
+{
+    if(menu_link_1.className == "menu_link_active")
+    {
+        tester_screen_height.innerHTML = book_pages.offsetHeight;
+        if(Math.round(tester_key_item.getBoundingClientRect().top) < book_pages.offsetHeight + Math.round(book_pages.getBoundingClientRect().top) && Math.round(tester_key_item.getBoundingClientRect().top) > book_pages.getBoundingClientRect().top)
+        {
+            tester_position_key_item.style.cssText = "color: #f00; text-shadow: 0 0 4px #f00;";
+        }
+        else
+        {
+            tester_position_key_item.style.cssText = "color: #0f0; text-shadow: 0 0 4px #0f0;";
+        }
+    }
+}, 200);
+//////////////////////////////////---~ TESTER ~---////////////////////////////////////
