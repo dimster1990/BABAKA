@@ -8,7 +8,7 @@ let _book_cash_contents_scrollmenu = localStorage.getItem("book_cash_contents_sc
 
 for (let i = 0; i < _main_menu.length; i++)
     {
-        main_menu.innerHTML += '<div class = "menu_link" id = "menu_link_' + i +'" onclick = "main_menu_items(' + i +')" title = "' + _main_menu[i] + '">' + _main_menu[i] + '</div>';
+        main_menu.innerHTML += '<div class = "menu_link target" id = "menu_link_' + i +'" onclick = "main_menu_items(' + i +')" title = "' + _main_menu[i] + '">' + _main_menu[i] + '</div>';
     }
 
 function main_menu_items(_item)
@@ -88,7 +88,7 @@ tester.innerHTML = '<div id = "tester_scroll_top">_scroll_top ~ ...</div>' +
 let _scroll_top = 0;
 setInterval(() => 
     {
-        if(menu_link_1.className == "menu_link_active")
+        if(menu_link_1.className == "menu_link_active target")
         {
             if(_scroll_top != book_pages.scrollTop )
             {
@@ -102,7 +102,7 @@ setInterval(() =>
 let _scroll_menu = 0;
 setInterval(() => 
     {
-        if(menu_link_1.className == "menu_link_active")
+        if(menu_link_1.className == "menu_link_active target")
         {
             if(_scroll_menu != book_contents.scrollTop)
             {
@@ -124,57 +124,37 @@ setInterval(() =>
     }, 1000); */
 
 
-
-//const elements = document.querySelectorAll('.menu_link');
-let _position_cursor = 0;
 let _color = "background: #8383836c";
 
 
 document.addEventListener('mouseover', (event) =>
     {
-
         const targetElement = event.target.closest('.target');
         if (!targetElement) return;
         _color = " background: #002fff4b;";
-
     });
 document.addEventListener('mouseout', (event) =>
     {
-
         const targetElement = event.target.closest('.target');
         if (!targetElement) return;
         _color = " background: #8383836c;";
-
     });
 
 
 /* menu_link_1.addEventListener("mouseover", function(){_color = " background: #002fff4b;";});
 menu_link_1.addEventListener("mouseout",function(){_color = " background: #8383836c;";}); */
 
+let _position_cursor = [];   
 
-
-/*     setInterval(() => 
-    {
-        document.addEventListener('mousemove', function (event) {
-        window.lastMouseX = event.clientX;
-        window.lastMouseY = event.clientY;
-        }, {once: true});
-
-        tester_position_cursor.innerHTML = '_position_cursor ~ ' + window.lastMouseX + " : " + window.lastMouseY;
-        tester_cursor.style.cssText = "left: " + window.lastMouseX + "px; top: " + window.lastMouseY + "px;" + _color;
-    }, 10); */
-    
-    setInterval(() => 
-    {
-        document.addEventListener('mousemove', function (event) {
-        lastMouseX = event.clientX;
-        lastMouseY = event.clientY;
+    document.addEventListener('mousemove', function (event) {
+        _position_cursor[0] = event.clientX;
+        _position_cursor[1] = event.clientY;
+        setInterval(() => 
+            {
+                tester_position_cursor.innerHTML = '_position_cursor ~ ' + _position_cursor[0] + " : " + _position_cursor[1];
+                tester_cursor.style.cssText = "left: " + _position_cursor[0] + "px; top: " + _position_cursor[1] + "px;" + _color;
+            }, 10);
         });
-
-        tester_position_cursor.innerHTML = '_position_cursor ~ ' + lastMouseX + " : " + lastMouseY;
-        tester_cursor.style.cssText = "left: " + lastMouseX + "px; top: " + lastMouseY + "px;" + _color;
-    }, 10);
-
 
 
 
