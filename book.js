@@ -1,5 +1,39 @@
-let _book_page_name = [];
-let _book_page_ = [];
+let _book_page_name = 
+[
+    [
+        "PROLOGUE",//cycle
+        [
+            "The dath",//chapter
+            "The rebirth"//chapter
+        ]
+    ],
+    [
+        "PEOPLE AROUND",
+        [
+            "The gunsmith",
+            "The boss"
+        ]
+    ],
+    [
+        "TROUBLES",
+        [
+            "Nice new place",
+            "The discord",
+            "Almost had it",
+            "Evening talk",
+            "Alive, once again",
+            "Kindness"
+        ]
+    ]
+];
+
+
+let _book_page_ = ["asdas","asd"];
+
+
+
+
+
 
 function book()
 {
@@ -12,9 +46,15 @@ function book()
 
 function book_menu_content()
 {
-    for (let i = 0; i < _book_page_name.length; i++)
+    let _book_page_number = 0;
+    for (let _a = 0; _a < _book_page_name.length; _a++)
     {
-        book_content_links.innerHTML += '<div class = "menu_link_page" id = "page_list_' + i + '"' + ' onclick = "book_menu(' + i + ')">' + _book_page_name[i] + '</div>'
+        book_content_links.innerHTML += '<h4>' + _book_page_name[_a][0] + '</h4>'
+        for (let _b = 0; _b < _book_page_name[_a][1].length; _b++)
+        {
+            book_content_links.innerHTML += '<div class = "menu_link_page target" id = "page_list_' + _book_page_number + '"' + ' onclick = "book_menu(' + _book_page_number + ')">' + _book_page_name[_a][1][_b] + '</div>'
+            _book_page_number += 1;
+        }
     }
 }
 
@@ -37,9 +77,9 @@ function book_page_marker(_page)
 
     for (let i = 0; i < _page_list.length; i++)
     {
-        document.getElementById(_page_list[i].id).className = "menu_link_page";
+        document.getElementById(_page_list[i].id).className = "menu_link_page target";
     }
-    document.getElementById(_page_list[_page].id).className = "menu_link_page_active";
+    document.getElementById(_page_list[_page].id).className = "menu_link_page_active target";
 }
 
 
@@ -74,7 +114,7 @@ let _book = '<div class = "book_reader">' +
 
 
 
-//-----------------------------------------------------page_001-----------------------------------------------------
+/* //-----------------------------------------------------page_001-----------------------------------------------------
 _book_page_name [0] = "The death"
 _book_page_[0] = 
     '<h1>PROLOGUE</h1><h2>The death</h2>' +
@@ -118,4 +158,4 @@ _book_page_name [12] = "глава 12"
 _book_page_name [13] = "глава 13"
 _book_page_name [14] = "глава 14"
 _book_page_name [15] = "глава 15"
-_book_page_name [16] = "глава 16"
+_book_page_name [16] = "глава 16" */
