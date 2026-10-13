@@ -79,8 +79,8 @@ main_menu_items(_cash_item_number);
 
 
 
-tester.innerHTML = '<div id = "tester_scroll_top">_scroll_top ~ ...</div>' +
-                   '<div id = "tester_scroll_menu">_scroll_menu ~ ...</div>' +
-                   '<div id = "tester_position_key_item">_position_key_item ~ ...</div>' +
-                   '<div id = "tester_position_cursor">_position_cursor ~ ...</div>' +
-                   '<div id = "tester_screen_height">_screen_height ~ ...</div>';
+tester.innerHTML = `<div id = "tester_scroll_top">_scroll_top ~ ...</div>
+                    <div id = "tester_scroll_menu">_scroll_menu ~ ...</div>
+                    <div id = "tester_position_key_item">_position_key_item ~ ...</div>
+                    <div id = "tester_position_cursor">_position_cursor ~ ...</div>
+                    <div id = "tester_screen_height">_screen_height ~ ...</div>`;
