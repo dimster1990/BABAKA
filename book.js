@@ -39,8 +39,8 @@ let _book_side_image_ids =
 [
     ["001_01_the_death"],           //chapter 0
     ["002_01_the_rebirth"],         //chapter 1
-    [],                             //chapter 2
-    []
+    ["no_image_available"],         //chapter 2
+    ["no_image_available"]
 ];
 let _book_side_image_id_changer = 0;
 
@@ -85,7 +85,7 @@ function book_menu(_page)
 
     _book_side_image_id = _book_side_image_ids[_page];
 
-    //imager.style.cssText = book_side_image_inside.style.cssText = book_side_image.style.cssText = "background-image : url(images/image_" + _page + ".png)";
+    imager.style.cssText = book_side_image_inside.style.cssText = book_side_image.style.cssText = "background-image : url(images/gallery/" + _book_side_image_id[0] + ".png)";
 }
 
 function book_page_marker(_page)
