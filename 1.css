@@ -12,6 +12,13 @@
   color: #2c2b37;
   background-color: #e5e5ee;
 }
+.book_img_id
+{
+  display: block;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
 #preloader
 {
   /* background: #0f0; */
@@ -35,7 +42,7 @@
 }
 body
 {
-  background: url(images/background_2.png), linear-gradient(0deg, #161c2a, #0a080e);
+  background: url(images/background/background.png), linear-gradient(0deg, #161c2a, #0a080e);
   background-size: 50vh;
   width: 100vw;
   height: 100vh;
@@ -373,7 +380,7 @@ b
 {
   .menu_link:first-child,.menu_link_active:first-child
   {
-    background: url(images/lotype.png) center center / contain no-repeat;
+    background: url(images/logotype/logotype.png) center center / contain no-repeat;
     width: 17vw;
     height: 8vh;
     border-radius: 0;
@@ -381,18 +388,18 @@ b
   }
   .menu_link_active:first-child
   {
-    background: url(images/lotype_active.png), radial-gradient(#656476, #65647600, #65647600);
+    background: url(images/logotype/logotype_active.png), radial-gradient(#656476, #65647600, #65647600);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
   }
   .menu_link:first-child:hover
   {
-    background: url(images/lotype_hover.png) center center / contain no-repeat;
+    background: url(images/logotype/logotype_hover.png) center center / contain no-repeat;
   }
   .menu_link_active:first-child:hover
   {
-    background: url(images/lotype_hover.png), radial-gradient(#838295, #65647600, #65647600);
+    background: url(images/logotype/logotype_hover.png), radial-gradient(#838295, #65647600, #65647600);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;

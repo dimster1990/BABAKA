@@ -1,7 +1,7 @@
 const _book_page_ = 
 [
     _chapter_the_death,
-    "asdasd1",
+    _the_rebirth,
     "asdasd2",
     "asdasd3"
 ];
@@ -37,9 +37,9 @@ let _book_side_image_page = 0;
 let _book_side_image_id = [];
 let _book_side_image_ids = 
 [
-    ["image_0","image_1","image_2"],//chapter 0
-    ["йцук","фыва","ячсм"],         //chapter 1
-    ["q"],                          //chapter 2
+    ["001_01_the_death"],           //chapter 0
+    ["002_01_the_rebirth"],         //chapter 1
+    [],                             //chapter 2
     []
 ];
 let _book_side_image_id_changer = 0;
@@ -156,7 +156,7 @@ setInterval(() =>
                 {
                 if (_book_side_image_id_changer != _book_side_image_id[i])
                 {
-                    imager.style.cssText = book_side_image_inside.style.cssText = book_side_image.style.cssText = "background-image : url(images/" + _book_side_image_id[i] + ".png)";
+                    imager.style.cssText = book_side_image_inside.style.cssText = book_side_image.style.cssText = "background-image : url(images/gallery/" + _book_side_image_id[i] + ".png)";
                     
                     _book_side_image_id_changer = _book_side_image_id[i];
                 }
