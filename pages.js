@@ -204,7 +204,7 @@ The two left the workshop, heading for the nearest hospital. Both hoped they wou
 
 const _the_rebirth =
 `
-<h2>The death</h2>
+<h2>The rebirth</h2>
 <p>
 <b>“Wait… What happened? I can’t remem- ohh. I guess I've… Died. I knew something would go wrong, I just knew that! I should’ve just run away and left them there to deal with this by themselves. I’m sure they left me and I'm not even sure what happened and how I died! Maybe I’m just lying in the junkyard like a piece of scrap metal. Ugh! Well at least I hope my parents will know that I’m dead and they will regret kicking me out of their house. I didn’t deserve this… I didn’t…”</b>
 <br />
@@ -326,6 +326,438 @@ After another hour, the three finally arrived at the apartment. Right when they 
 <br />The orc helped him lie on the bed, after which she carefully covered him with a heavy and fluffy blanket.  
 <br />— <b>Rest well…</b> — She turned away and sat on the floor next to the bed.   
 <br />She was probably going to sit there sleepless all night and Orkan couldn’t feel anything but gratitude before he fell asleep.
+</p>
+<br />
+`;
+
+const _the_gunsmith =
+`
+<h1>PEOPLE AROUND</h1>
+<h2>The gunsmith</h2>
+<p>
+The adaptation process took much longer than expected. It could’ve taken the estimated week that Connor predicted, but the cyberpsychosis incident made it worse. It took Orkan the whole month only to learn how to properly use his new mechanical limbs, yet he still struggled with applying the right amount of pressure and often broke small things and accidentally hurt his friends. During his rehabilitation Orkan had to live with Brief to make sure he wouldn’t get into any trouble, or if he did, he’d get help right away…
+<br />
+<br />The weirdest part was that he continued hearing this voice that he’d heard when he nearly killed himself by accident. It was silent at first, but soon it became more and more prominent and after a couple of weeks it morphed from his own voice to something completely different… A synthetic voice, something vaguely resembling a male one with what felt like a reverb filter on it. Orkan decided to not tell any of his friends about this, he was almost sure they would look at him like some kind of schizo… He was disturbing enough with all of this chrome and didn’t want to seem even more disturbing. The elf was scared that this unknown thing might take control over his body again but for some reason it wasn’t doing so… At least not yet.
+<br />
+<br />Finally after a month of living in Brief’s apartment Orkan was able to return to his own. It was so weird to be here again when he should’ve been dead… The feeling like he wasn’t supposed to be here, but here he was anyway. Luckily he was able to pay the bills with his friends’ help… What would he have done without them? Returning to empty and dark apartments felt strangely sad now since he had become so used to someone being around while he stayed at Brief’s place.
+</p>
+<br /><br /><br />
+<hr />
+<p>
+<br />That day the voice issue became even more noticeable than it was before. Orkan had just gotten out of bed and gone to brush his teeth when he noticed something like a white glow in the corner of his eye.
+<br />— <b>Hm?</b>— He turned around but nothing unusual was there.
+<br />Right when he returned to his morning routine he turned back again, this time almost completely sure he saw something… But, again, only to see nothing. How weird…
+<br />After finishing his morning routine Orkan returned to the living room and then he got a notification on his phone. At first he thought it might be Brief asking him how he was doing there, but to his surprise it was someone else. He opened the e-mail to read what was written there.
+<br />“¡hola muertitooo! hows life going eh? still alive? still breathing?? is the endo OK??? u know i was working hell ton of time to make it, dnt tell me youve managed to die againg or smth xDDD r u still going to do the merc work or? if so get yo ass out here! you owe me now /:] ill provide the address below, just type yes if ud be down and no if yourre a fuckin asshole xD k see ya”
+<br />Orkan understood that it was Connor Price, the guy that made him into this weird mechanical abomination… He knew it wasn’t exactly Connor’s fault that he was like that now but he couldn’t get rid of the slight anger that Connor hadn’t even tried to make him less of a robot.
+<br />— <b>Ewww yucky yuck, who even speaks like that?</b>— The voice in Orkan’s head laughed, the sound was unpleasantly loud. — <b>What, is this dude that brought you back to the world of living? Yea? Lulz, he writes like he's retarded.</b>
+<br />— <b>Shut up.</b>— The elf let out a deep sigh and replied “Yes” to the e-mail.
+<br />He knew he needed some help with that thing that lived in his head, it wasn’t only scary to know it could take over his body again, it was also extremely annoying.
+<br />— <b>I’m not a thing you stupid.</b>— The voice seemed frustrated.
+<br />— <b>Don’t read my thoughts!</b>— Orkan shook his head violently as if trying to shake the entity away.
+<br />— <b>I can and I will and if you make me mad I'll even remind you of something you REALLY-Y-Y dont want to remember.</b>— The voice laughed again, then became serious. — <b>And I have a name, you dumbass.</b>
+<br />— <b>Oh really? A thing… A voice in my head now has a name?</b>— Rubbing the bridge of his nose, Orkan sounded annoyed. — <b>What could it even be, let me know?</b>
+<br />— <b>It’s Socio. S-O-C-I-O. The name of a character I like, from a movie called “Fleshbags Destroyer”. It’s about killing things like you!</b>— Socio sounded like they sneered.
+<br />— <b>I’ve never watched this thing in my life, you made it up.</b>— The elf let out an annoyed sigh, starting to get ready to go outside.
+<br />— <b>If you didn’t watch it that doesn’t mean I didn’t as well.</b>— The voice went silent for a second, then returned again. — <b>“Fleshbags Destroyer” - a movie about a robot named Socio that takes revenge on the human race. Genres: slasher, thriller, art house. Year of publication…</b>
+<br />— <b>Then how do you have access to the internet to watch that?!</b>— Orkan threw a t-shirt on the floor in frustration. He had to pick it up right after to put it on though…
+<br />— <b>I dunno, the only thing I know is that it takes a shit ton of your memory. And i fucking love that!</b>— Socio burst into mocking laughter. — <b>Someday I'll take all of your memory space and you won't even be able to even reminder who you are!</b>
+<br />— <b>Remember.</b>— Orkan frowned, putting on his boots.
+<br />— <b>DON’T FUCKING FIX ME YOU SHITPILE I HATE YOU!</b>— Socio’s voice became ear-burstingly loud, making the elf wince and cover his ears. — <b>I know better how to say words, you ballsucker.</b>
+<br />— <b>How did you call me?</b>— Orkan frowned. — <b>You can’t call me that.</b>
+<br />— <b>I can’t? Why so? Will YOU stop me?! Try!</b>— Socio started repeating the same word over and over again in a mocking tone.
+<br />— <b>Shut up! It’s inappropriate! Aghh, I hate you so much!</b>— The elf tried to squeeze his hands to his ears even harder, but it didn’t help in the slightest. — <b>Please, I just need to pack up and go outside!</b>
+<br />— <b>To ask your boyfriend how you can get rid of me? Ain't no way I’ll agree to that! So, where was I…</b>— Socio continued with his repetition.
+<br />— <b>Oh dear God, please help me…</b>— Orkan let out a groan from his powerlessness over the entity in his head.
+</p>
+<br /><br /><br />
+<hr />
+<p>
+<br />Halfway to Connor’s workshop Socio seemed to think the joke was getting old and they had to come up with a new way to make Orkan suffer.
+<br />— <b>Would you prefer to suck this dude’s dick or to be fucked by him?</b>— The entity put on a thoughtful tone.
+<br />— <b>Neither, ew! What’s that question?!</b>— The elf wrinkled his nose at that level of tactlessness.
+<br />— <b>Can make you do both… Oh whoops, you dont even have anywhere to be fucked into anymore, my bad. A blowjob it is then!</b>— Socio let out a narcissistic snicker.
+<br />— <b>Don’t you dare!</b>— Orkan frowned even more in indignation… The audacity!
+<br />— <b>A blowjob it i-i-is-s-s…</b>— With malicious intent, Socio's voice disappeared.
+<br />With that Socio stopped saying anything, finally leaving Orkan at peace… Yet now it felt even worse, what if they really did what they just said?... And why did Orkan get the worst thing that could possibly live in one’s head? He felt like it would be better even if the voice tried to make him murder people or something like that… At least it wouldn’t have been THAT humiliating!
+</p>
+<br /><br /><br />
+<hr />
+<p>
+<br />— <b>Well hello-hello, muertito!</b>— Connor gave Orkan a powerful handshake when he arrived at the workshop. — <b>Glad to see you still alive. C’mon, have a seat!</b>
+<br />The mechanic led his guest to the dining table at the corner of the workshop, sitting opposite him. The seat was dirty, the table was dirty… Everything was dirty and it annoyed the elf, he himself always tried to keep his habitat squeaky clean…
+<br />— <b>Ask him to fuck you on this table.</b>— Re-appearing again, Socio said that at the most inconvenient time…
+<br />— <b>So, uh… Do you live here?</b>— Orkan tried not to pay attention to the voice in his head, thinking that maybe it’ll help somehow.
+<br />— <b>¡Pues sí! I have a bedroom here, a kitchen, a toilet… Everything a normal person needs!</b>— Connor chuckled, pleased to hear the question about himself.
+<br />— <b>Mhm…</b>— The elf wrinkled his nose, the scent of the place was really something else, it smelt like gunpowder, engine oil and stale blood. And something that vaguely resembled a citrus air freshener? — <b>Ahem… I don’t want to look rude or anything but… Can you do something with the stink?</b>
+<br />— <b>What stink?</b>— Connor sniffed the air and shrugged. — <b>I don’t smell anything, bro. Don’t you smell the air freshener?</b>
+<br />— <b>Not really...</b>— Orkan shook his head, the smell wasn’t strong enough to make him nauseous but it didn’t make the atmosphere more inviting either.
+<br />— <b>I don’t think I can do anything more than that, hombre.</b>— After sniffing the air one more time, the gunsmith continued. — <b>Anyway, I have a little work for you to get back on your feet.</b>
+<br />— <b>Being a cheap prostitute it is. Bark for him, bea-ach-h!</b>— Socio threw their two cents into the conversation.
+<br />— <b>Hnng…</b>— The elf took a deep breath before speaking. — <b>What is it?</b>
+<br />— <b>Nothing too hard for you, muertito. You see, I’ve got this huge commission for exoskeletons! I can’t say you didn’t help with that, my followers are all over the place, they love this project… I mean, you.</b>— Connor noticed Orkan’s worried expression. — <b>I didn’t show your privates or face or anything like that! Just the metal part of you.</b>
+<br />— <b>At least…</b>— Orkan sighed. — <b>What’s the work though? You didn’t say.</b>
+<br />— <b>¡Ah, sí! Estoy un poco distraído, sorry.</b>— The mechanic chuckled. — <b>The exoskeletons, they’re for the big dogs. The customer decided to stay anonymous for some reason but anyways, you’ll just have to screw the bolts, that’s it.</b>
+<br />— <b>Seems easy enough.</b>— Orkan nodded. — <b>How much will I get?</b>
+<br />— <b>Not much! Don’t expect me to give you a shit lots of money for a work as simple as that. I just want to help you a little, since you’re, you know… Partially my creation now.</b>— Scratching the back of his head, Connor seemed slightly awkward.
+<br />The last words stung the most. A creation? A project? Doesn’t Connor think that Orkan’s less of a person now that he had saved his life with all of that chrome? He didn’t want to be treated like a project, he’s a living thing!
+<br />— <b>Yes, daddy!</b>— Orkan said that with his own mouth, after which he quickly covered it with his hands. Obviously one of Socio’s jokes on him…
+<br />— <b>Ehh?</b>— The mechanic tilted his head, genuinely confused by the answer. — <b>¿Disculpe?</b>
+<br />— <b>Nothing! Let’s get to work!</b>— Squeezing his eyes shut, Orkan just wanted to fall through the ground from embarrassment.
+<br />Connor watched his guest with suspicion for a couple of seconds before finally leading him to the workbench. A big pile of various metal parts was lying there and a cardboard box with bolts next to it.
+<br />— <b>Here’s the blueprint.</b>— He pointed at the piece of paper on the wall. — <b>And here’s how these pieces should be screwed. The technology isn’t my own, unfortunately… So these blueprints sucks, but well! Money is money. Got what you have to do?</b>
+<br />— <b>I think so, yes.</b>— Orkan took a screwdriver and gave the blueprint another glance.
+<br />— <b>Bueno, then get to work!</b>— Connor smirked and leaned against the wall next to where the workbench was located.
+<br />— <b>Yeah.</b>— The elf sighed and started screwing the metal pieces together without much vigour.
+<br />— <b>So anyways, how are you doing lately? Anything unexpected happening with your endo that I need to know?</b>— The mechanic tried to inspect the endoskeleton through the hologram.
+<br />— <b>Well…</b>— Orkan wasn’t looking away from the metal. — <b>The only unexpected thing is that I REALLY-Y like cocks now!</b>— He shook his head violently. — <b>NO! I didn’t want to say that!</b>
+<br />Orkan had to stop his work so he wouldn’t throw the metal parts on the floor from the frustration and embarrassment.
+<br />— <b>I’ve had a bad case of cyberpsychosis, it seems and now I have this stupid voice in my head that can also make me say these things! I swear I’m not making this up!</b>— He really hoped that he didn’t sound like a weirdo.
+<br />— <b>Woah woah dude, that’s intense! Voice in your head, you say?</b>— Connor raised his eyebrows, and it wasn’t quite clear if he believed his guest’s words or not. — <b>What does it sound like?</b>
+<br />— <b>Hmm…</b>— The elf thought for a moment. — <b>Something unnatural? It kind of reminds me of a male voice but not too much… It started as my own but transformed into something else afterwards. I don’t know why… But it’s really annoying and humiliating!</b>
+<br />— <b>Wow. That really doesn’t sound too good, buddy.</b>— Connor made a focused face as if he was trying to hear that voice.
+<br />— <b>Can you help me?</b>— Orkan let out a distressed sigh. — <b>I'm worried it can take over my body and try to kill me again!</b>
+<br />— <b>Kill you again?</b>— The mechanic raised his eyebrows even more. — <b>That’s horror stuff, dude! I don’t know if I can…</b>
+<br />— <b>Please! I’m not going to go to the doctors, what will they think about me? That I’m some kind of schizo! And I’m not, I swear! It’s not the schizo type of voice, it’s something else…</b>— Orkan whined, hopeful that Connor would be able to help him somehow.
+<br />— <b>Hmmm…</b>— Connor thought for a second. — <b>I don’t know… I’m not as good at programming as I would like to be. Don’t get me wrong, I do know something but… The code in your head isn’t mine, I found it online and made some modifications. Basically it’s a script for an AI… Ohhh.</b>
+<br />— <b>You mean there’s an AI living in my head!?</b>— Orkan looked at Connor with terror in his eyes.
+<br />— <b>Bingo!</b>— Socio sounded excited.
+<br />— <b>I guess that yes, most likely?</b>— Connor thoughtfully rubbed his chin. — <b>You needed some kind of AI to keep your brain working, but it wasn't supposed to become a separate personality… I can’t help right now though. I don't have enough knowledge to do so… But I’ll try to get more into that.</b>
+<br />— <b>Better later than never, I suppose…</b>— Orkan sighed loudly, the thought of living with Socio didn’t seem so pleasant. But at least there was a chance…
+<br />He continued the work Connor gave him, luckily the AI decided to not interrupt him this time with their disgusting jokes.
+<br />— <b>So, uh… What’s up with the guns by the way? There’s a lot of them on the walls, are they for sale?</b>— The elf sounded slightly awkward, but he wanted to fill the silence with something.
+<br />— <b>Nah! These are all of my babies, my love and passion! I’m actually more of a gunsmith than anything else.</b>— Smiling proudly, Connor looked at his gun collection on the walls.
+<br />— <b>Seems like you’re really into that, having hobbies is good…</b>— Orkan glanced at the firearms before returning to work.
+<br />— <b>It’s not just a hobby! It’s the work of my whole life!</b>— Connor took the StG 44 from the wall, holding it lovingly. Too lovingly… — <b>These babies are gorgeous, aren’t they? This one’s name is Charlie.</b>
+<br />— <b>You’re… Giving them names?</b>— Orkan raised one eyebrow, quite surprised at such affection towards some weapons.
+<br />— <b>¡Por supuesto! They’re not your regular objects, they’re art!</b>— Connor gave the barrel a little kiss and Orkan quickly turned away.
+<br />— <b>Uhh… If you say so? Okay…</b>— He couldn’t feel anything but awkward, now it felt like he was invading someone’s personal space, witnessing something that he shouldn’t see…
+<br />— <b>I love them more than my own life, hehe.</b>— Connor chuckled.
+<br />— <b>He’s definitely fucking with all of those guns, yuck!</b>— Socio sounded quite disgusted. — <b>I guess you’re not his type after all. The sad smell of friendzone!</b>
+<br />Orkan was about to say something when he noticed that the gun was now pointed at his own head.
+<br />— <b>H-hey!</b>— He raised his hands in surrender. — <b>Wh-what did I do wrong?!</b>
+<br />— <b>Let’s play a game!</b>— Connor laughed jokingly. — <b>Is it loaded or not? Your thoughts?</b>
+<br />— <b>L-let’s not test it on me!</b>— Gulping, the elf wasn’t able to look away from the gun as his voice started trembling. — <b>Please!</b>
+<br />— <b>On one, two…</b>— Connor smiled in excitement. — <b>Three!</b>
+<br />A hail of bullets tore through the air right next to Orkan’s head and he was sure he’d die… But Connor only laughed, finally lowering the weapon and placing it back on the wall.
+<br />— <b>They’re all loaded, ha! I wish you could see yourself! Scared like a little perrito! Wheww!</b>— He wiped a singular tear while continuing laughing.
+<br />— <b>Unnghh…</b>— Orkan exhaled with relief… That was extremely stressful. — <b>Yeah… Haha… Ha…</b>
+</p>
+<br /><br /><br />
+<hr />
+<p>
+<br />Time passed and after what felt like an hour all of the metal pieces were screwed together, just like the blueprint showed.
+<br />— <b>Nice work, muertito. Here’s your cash!</b>— The mechanic rummaged through his jeans’ pockets and handed him a $10 bill.
+<br />— <b>Thank you.</b>— While taking the money, Orkan felt a little sad that it's not as much as he wanted. — <b>I guess I'll go now… I don’t feel so good.</b>
+<br />The elf didn’t want to admit that it was Connor whose “prank” made him want to leave so badly, but the fact remained - if he stayed there any longer Connor might’ve wanted to repeat the joke again and accidentally kill him this time…
+<br />— <b>I gotchu. Well I’ll tell you if I’d need some more help or if I’ll get some info on how to get rid of the AI.</b>— Connor gave Orkan a cheeky smile. — <b>Stay safe out there, ok?</b>
+<br />— <b>Okay… Goodbye.</b>— Orkan waved his hand as a quick goodbye before practically running out of the workshop.
+</p>
+<p>
+On his way home the only thing Orkan hoped for was that Socio wouldn’t try to throw him under a car and especially wouldn’t make him do anything humiliating. But he knew it was too much to ask…
+</p>
+<br />
+`;
+
+const _the_boss =
+`
+<h2>The boss</h2>
+<p>
+It was one of the many September mornings, warm and sunny. The weather was good enough to go for a walk, so Orkan decided to do just that after he finished his breakfast.
+<br />
+His apartment was quite nice for someone who didn’t have a stable income, with a big living room, a nice small kitchen area in it and even a big TV on the wall. Orkan, who was raised in a privileged family, still didn’t want to live somewhere even slightly worse than that, so usually he had to agree to all sorts of gigs just to be able to pay the rent, whether it was cleaning, babysitting or dangerous stealth missions.
+<br />
+It was just a week after he’d been at Connor’s place and of course those 10 bucks he got weren’t enough to get the rent paid… But he wasn’t able to get any new missions due to the long hiatus he’d had to take because of his… Well, death. So the elf hoped that someone would finally reach out to him to offer him some job, anything at all.
+<br />
+His phone suddenly rang right when he was about to take a first bite of his fruit salad.
+<br />— <b>Oh look, someone wants to book you for the night. Get your mouth ready!</b> — Socio let out a nasty giggle.
+<br />— <b>Shut up. But, no… Why are they calling then? Clients usually contact me through EMWork or emails… Hm…</b> — Orkan placed the fork with fruits back on the plate and picked up the phone, looking at it a bit confused.
+<br />— <b>Will you just stare at it or will you pick up the call? I want to know who it is!</b> — With an impatient intonation, Socio demanded.
+<br />
+Sighing, Orkan answered the call. He wasn’t even able to say “hello” before the person at the other end spoke.
+<br />— <b>The car is waiting for you. You have five minutes to get down.</b> — The voice was female, but low enough to make Orkan hesitate for a second.
+<br />— <b>I, um, uhh… Excuse me? Who are you? What car?</b> — Orkan was genuinely confused by the strange call. Who even was it? What did she want?
+<br />— <b>It’s about your work. I can’t tell anything else. You have five minutes to get ready and go outside.</b> — With that, the stranger hung up…
+<br />— <b>Who… Hmm…</b> — Orkan placed the phone on the table, considering the offer. — <b>Should I…</b>
+<br />— <b>If you’re stupid enough to go anywhere some anonymous bitch asks you to then yeah, go ahead! I’ll have fun watching whatever happens to you.</b> — With a devilish chuckle, Socio’s voice vanished.
+<br />— <b>Mhm. Have fun, because I’m going there no matter what you say.</b> — The elf said with a determined expression.
+<br />
+Even though the call was weird and fairly alarming, he just couldn’t say “no” to a job offer, the rent wasn’t going to pay for itself after all. Orkan quickly put on his streetwear, took his phone and some small snacks and left the apartment.
+</p>
+<p>
+The person on the call wasn’t lying, a luxurious black car was parked right in front of the building where he lived.
+<br />— <b>Wow, who could even…</b> — Orkan looked around, not quite sure if it was the right car.
+<br />
+A middle-aged woman stepped out of the driver’s seat, opening the back door for the elf.
+<br />— <b>Sit down, please.</b> — Neither her face nor her voice showed any hints of emotions.
+<br />— <b>Oh, right… Uh, thank you?</b> — With an awkward expression, Orkan stepped into the car, sitting down on a nice and soft seat.
+<br />
+The driver closed the door and returned to the driver’s seat. The engine roared and soon the car started moving… Though Orkan had no idea where to.
+<br />— <b>Can I ask a question? Where are we going?</b> — He let out a nervous chuckle, not wanting to sound demanding or annoying.
+<br />
+But the woman seemed like she didn’t even hear him… All of this started to look more and more suspicious. Maybe Socio was right… Maybe he really was that stupid enough to agree to something as shady as that.
+<br />— <b>Of course I was right, silly, I always am.</b> — Socio’s voice was painfully smug.
+<br />— <b>“Shut up.”</b> — Orkan didn’t say it out loud, a thought was enough to communicate with the AI in his head. Fortunately…
+<br />
+To distract himself from thinking too much about where he was going, the elf was looking out of the car window. Various shops with colourful banners and neon signs, parks, entertainment facilities passed by… Somewhere in there was Wolfram’s dorm and a good cheap pizzeria… Maybe he should’ve invited his friends to eat there together? Do at least something nice for their help.
+</p>
+<p>
+As more time passed by, the urban landscape soon changed into a poorer area of slums. The streets there were less clean, the houses shabbier and the smell… Well, Orkan assumed that it smelled awful there, but he couldn’t know for sure since the car was soundproof, bulletproof and surely stinkproof. He’d never been in these areas and in comparison to them, he was living in some luxurious house… Which slightly uplifted his mood, knowing that there is still someone more peasant-y than himself.
+</p>
+<p>
+When the cityscape changed to pretty trees and fields Orkan finally decided to ask the driver again.
+<br />— <b>Uhhh… We’re kind of far away from umm… Can you tell me where we’re going, at last?</b> — He pulled out the phone from his pocket and tried to message Brief, but unfortunately the car seemed to block any internet signals as well.
+<br />— <b>We’ll be there soon.</b> — Without any emotion in her voice, the woman replied.
+<br />— <b>Alri-i-ight…</b> — Orkan tucked the phone back into his pocket, now visibly nervous. At least Socio wasn’t making their stupid jokes…
+<br />— <b>Nah, I’m here.</b> — And here they were. — <b>If you don’t want me to joke on your precious ass then AT LEAST don’t include me in your thoughts. You know how tempting it is!</b>
+<br />— <b>“Stop reading my thoughts! I’m stressed enough without your blabbering!”</b> — The elf thought while rubbing the bridge of his nose, he couldn’t even think in peace!
+<br />— <b>Hehehe. And you never will…</b> — The AI whistled nonchalantly, obviously happy about its host’s suffering.
+</p>
+<br /><br /><br />
+<hr />
+<p>
+Finally, the landscape changed to something else… Something Orkan didn’t expect to see this day: a huge mansion came into view in the distance with a big garden in front of it. Of course, he wasn’t new to a luxurious life, he had been a part of it around two years ago but now since he was almost at the bottom of the hierarchy… Now it was shocking, who could it be and why did some rich person need him at all? He wasn’t the best mercenary in the city to have such clients… He could only wonder until he finally learned the truth.
+</p>
+<p>
+After another five minutes the car finally stopped right in front of the garden gates. The driver opened the door so Orkan could go outside, but nobody was greeting him yet.
+<br />— <b>Right in time!</b> — A strangely familiar voice came from behind the closed gate.
+<br />
+The elf squinted his eyes, surely remembering the voice but he couldn’t tell whose it was exactly… A couple of seconds later the gate opened, revealing the person that was there.
+<br />— <b>Well hello there.</b> — Giving his guest an appraising glance, Edward Kitt smiled.
+<br />
+Orkan froze in place, not able to even mumble anything in response. Why HIM?! The person who was responsible for his death! Now just standing in front of him, smiling like absolutely nothing happened that day…
+<br />— <b>Cat got your tongue?</b> — Edward gave the elf a smug smirk. — <b>Don’t act like we’re complete strangers! I’ve seen you once before you died, you’ve seen me at least once before you died. We’re almost friends by now, don’t you think?</b>
+<br />— <b>Aa… Awa… Eh… Ewh…</b> — The merc mumbled something, too worried to accidentally say something wrong. Socio decided to “help”… — <b>…Damn you’re hot!</b>
+<br />— <b>Mm? I know I’m handsome but don’t cross the line.</b> — Edward’s smile disappeared, replaced with a serious face. — <b>I can still make you die for the second time.</b>
+<br />— <b>Hmmmph…!</b> — Covering his mouth with his hands, Orkan let out a pitiful whine… Why now, why like THAT?!
+<br />— <b>Let’s go inside and I’ll tell you your work plan for today.</b> — With those words Edward turned back and started walking towards his mansion.
+<br />
+The elf followed, biting his lower lip hard to not let Socio make him say something humiliating again. He could get away with it in almost any other situation, but not with Edward. Showing him disrespect was the equivalent to suicide!
+<br />
+Too focused on keeping his mouth shut, Orkan didn’t notice a step on the mansion’s porch so he fell on his knees, almost bumping into Edward’s back.
+<br />— <b>What’s that?</b> — Edward turned to look at the fallen elf right in front of him. — <b>Try not to do that in the future, I don’t want you here stumbling around, breaking my belongings, mhmm?</b>
+<br />— <b>Yeah… I’m sorry…</b> — With an even more pitiful expression on his face, Orkan got up and followed Edward inside the mansion.
+</p>
+<p>
+The interior of the mansion was equally as grand as its exterior: beautifully made marble statues, paintings on the walls, lush decorative plants and a wide staircase to the second floor… Yet the colour scheme of the interior was limited, everything was white with some specks of gold.
+<br />
+Right when both men entered the house, two white borzoi dogs flew to their owner, both jumping on him and barking. Orkan winced, he didn’t have any allergy pills with him…
+<br />— <b>I was here just a minute ago, girls! They’re such nice little babies.</b> — Edward squatted down to scratch both dogs behind their ears. — <b>Meet my dogs, the one with the pink collar is Nevada, the one with the green collar is Camper. They don’t like being mixed up with each other.</b>
+<br />
+Nevada started sniffing Orkan’s rear, meeting the stranger in the house.
+<br />— <b>A-ha… They’re cute but…</b> — He sneezed. — <b>I have an allergy to dog fur…</b>
+<br />— <b>Well that makes it more fun for you! These girls can be clingy sometimes, you’ll have plenty of time with them.</b> — Standing up, Edward smirked playfully. — <b>The medicine is on the table behind me.</b>
+<br />— <b>Mhmmm…</b> — Orkan glanced at the pack of allergy pills… Taking them right away still felt a little awkward, but the organic side of his nose started itching…
+<br />— <b>Alright. So, the work plan, yep?</b> — Edward clapped. — <b>Nothing too hard for you, you’d just have to sort the dog food in the kitchen by colour, to find out what my dogs’ favourite music genre is and, hmm… Oh, right! It turned out that I completely forgot the password to my vault, can you believe that?</b> — He grinned maliciously. — <b>And don’t try to get out of that with your “I’m stupid and lame” thing, yea?</b>
+<br />
+Edward emphasised the <b>“I’m stupid and lame”</b> part probably to insult Orkan even more. Socio laughed loudly.
+<br />— <b>DAMN HE’S GOOD! Did you hear what he called you?! STUPID AND LAME! And the other tasks, HA! HE’S JUST PLAYING WITH YOU AND YOU CAN’T DO ANYTHING!</b> — The AI seemed to be in pure bliss from all of that nonsense that Edward asked.
+<br />— <b>“Just PLEASE don’t make it worse!”</b> — With a plea, Orkan thought.
+<br />— <b>Oohhh that was so-o-o unnecessary to say… Let’s see how I can make it worse!</b> — Socio’s voice disappeared with a clear threat.
+<br />— <b>That’d be it. Were you even listening? You look like you just stepped on some poop.</b> — Edward raised one eyebrow, scanning his guest’s expression.
+<br />— <b>Ahhh, I was just thinking about how stupid and lame I actually am, excuse me. You’re actually right! You can use me however you want as punishment.</b> — Orkan covered his mouth, tears in his eyes from the embarrassment… Socio’s joke was successful.
+<br />
+It seemed that Edward didn’t quite like another “funny” quote, thinking that the joke was getting old. After seeing the frustration on his face Orkan almost started whimpering.
+<br />— <b>I’m so sorry, it’s not me who says all of that, I swear!</b> — He lowered his head, biting his lower lip hard.
+<br />— <b>Then who was that? My imagination or one of my dogs?</b> — Edward sighed. — <b>Get to work already and don’t do anything weird with my girls. If something happens to them…</b> — He clapped his hands and then smiled. — <b>I gotta go now. Business matters.</b>
+</p>
+<p>
+After giving his dogs one final pat on the head, Edward slowly left the mansion, leaving Orkan alone with borzois.
+<br />— <b>YO HE’S SICK! I mean I still hate him cause he’s human but like, HE’S JUST READY TO KILL YOU ON THE SPOT! Wow. Should I make you punch the dogs so he’d, like, shoot you?</b> — Socio laughed like a maniac, having the time of their life.
+<br />— <b>DON’T! I have enough problems now all thanks to YOU!</b> — Orkan sneezed. — <b>All because of you and your unfunny and stupid jokes!</b>
+<br />— <b>My jokes are better than yo momma, I laugh at them every time.</b> — The AI mockingly mimicked the sneeze.
+<br />— <b>I’m not listening.</b> — Orkan shook his head and took the allergy pills from the table.
+<br />
+He twirled the package in his hand, not recognising the brand. It would be terrible if these were just laxatives, for the joke’s sake.
+<br />— <b>Pfft. Pooping yourself is the last thing you can worry about.</b> — Socio chuckled.
+<br />— <b>Right. I guess so. Thank you.</b> — The elf squinted his eyes slightly, surprised why he even said “thank you”.
+<br />
+Socio seemed to be so confused that they decided not to speak up anymore. Probably to think about how they could punish their host for such audacity.
+<br />
+With a sigh, Orkan took the pill as two dogs behind him were playing with each other. The tasks Edward gave were absurd, but he didn’t dare to refuse… And thanks to Socio he made a really bad first impression so saying “no” definitely wasn’t an option.
+</p>
+<br /><br /><br />
+<hr />
+<p>
+The first task Orkan decided to work on was sorting the dog food since it seemed like the most monotonous and boring thing of the three. He walked to the luxurious and big kitchen with a dining area in it. The view out of the windows was truly beautiful: still green fields, forests and a city far far away… The elf couldn’t remember ever seeing nature like that in his life, he had lived in a big city since childhood. He took a minute to appreciate the view before returning to the task at hand with a loud sigh. Without much enthusiasm, he started searching for the bags of dog food, hoping there wouldn’t be more than two packs.
+<br />
+Finally Orkan found a single package in one of the kitchen cabinets and even though the whole thing was huge at least it was just one! He grabbed the heavy pack, took a couple of bowls and sat on the floor, placing everything in front of him. After some hesitation he opened the bag and, wrinkling his nose from the smell, looked inside of it. The kibble came in three colours: reddish, brown and greenish…
+<br />— <b>Well… There we go.</b> — The elf took a handful of various pieces of kibble and started sorting them by colour.
+<br />— <b>Good boy-y-y! Bark for me now since you’re such an obedient dog, woof woof!</b> — Socio’s mockery was a “nice” addition to the nonsensical task.
+<br />— <b>I think you did that good enough yourself.</b> — Without putting much thought into his words, Orkan replied.
+<br />— <b>FUCK YOU, I HOPE YOU DIE ALONE IN THE DITCH YOU FUCKING-!</b> — The AI seemed so mad they couldn’t even finish their own sentence.
+<br />
+Orkan just sighed in return. What else could he expect from Socio? Flattery? Nice words? The crashout was too predictable for him to even react to it.
+<br />
+The bowls were filling slowly and after a couple of minutes a weird thought came to his mind… What does dog food actually taste like? Maybe he could try it… The merc took another handful of kibble and brought it to his mouth before realising that he didn’t quite want to do that.
+<br />— <b>Did you just…</b> — He pulled his hand away from his face, confused.
+<br />— <b>Me? What? I didn’t do shit! If you want to eat dog food like the bitch you are, that’s not MY problem!</b> — Socio sounded irritated, but knowing his types of jokes…
+<br />
+Shaking his head to clear his thoughts Orkan continued sorting, now with an unnerving feeling of his thoughts being messy. He couldn’t tell for sure whether it was one of Socio’s jokes or whether he had really thought that himself. Doubting his own thoughts felt weird… He tried to focus on sorting the kibbles though, this was more important.
+</p>
+<p>
+Half an hour passed and one of the dogs decided to enter the kitchen to finally check what the guest was doing there. Luckily the allergy pills took effect, unluckily there were three tempting bowls of food on the floor… Camper made her way to the bowls, sniffing them with big enthusiasm.
+<br />— <b>Hey! No! Don’t eat it!</b> — Orkan tried to gently push the dog’s long snout away from the food, but she had other plans.
+<br />
+Without any warning Camper decided to start excitedly munching from the bowl with red kibbles. The sound of food being devoured lured Nevada to the kitchen in a matter of seconds.
+<br />— <b>No no no! Bad dogs! Agh, please!</b> — Carefully, the elf tried to pull the bowls away, but it was too late.
+<br />
+Nevada jumped forward and accidentally landed with one of her paws in a bowl, which made her fall and the rest of the dog food scatter. She didn’t seem to mind the fall, unlike the annoyed, facepalming Orkan.
+<br />— <b>Damn! And what do I do with all of this now?!</b> — He grunted. — <b>Alright, I’ll just… Let them eat from the floor and I’ll sort the rest on the table while these two are busy. Not like he’d notice the difference in quantities… I hope.</b>
+<br />
+The elf took all three now-empty bowls and placed them on the dining table, alongside the dog food bag. He hoped that the dogs wouldn’t try to disturb him this time…
+</p>
+<br /><br /><br />
+<hr />
+<p>
+An hour or two passed without any problems for Orkan and his kibble-sorting. The dogs luckily decided that they’d eaten enough and now it was time to lie down and chill next to the guest, watching him with interest.
+<br />
+Finally, all three bowls were filled to the brim with coloured dog food.
+<br />— <b>Finally! Phew, one of the three is done.</b> — With a content smirk, Orkan placed all three bowls in the kitchen cabinet so the dogs wouldn’t ruin the whole work, even if it was stupid. — <b>Nice. Okay, what next… The music for the dogs, right.</b>
+<br />
+He glanced at Nevada and Camper who were lying side by side, snugly pressed together. The merc looked around the kitchen and the hall, searching for any music system, but found none. Fortunately, he still had his phone with him and even though he didn’t have any internet connection, he was sure that he had some music downloaded… Well, drum and bass, mostly, since it was his favourite genre.
+<br />— <b>Okay doggies, let’s see if you’d like something from my playlist.</b> — Sitting in front of the dogs, Orkan started looking through his music. — <b>You better like something because I don’t have that much, haha.</b>
+<br />
+He found his favourite track in the music library and turned it on, even slightly hopeful that the dogs would appreciate his music taste… But both borzois didn’t seem to care that much about their guest’s favourite track. They just tried to playfully bite each other’s muzzle.
+<br />— <b>Well, I personally like it…</b> — Orkan sounded a bit offended, but paused the track and played another one, this time in the rock genre.
+<br />
+Same reaction, except Nevada yawned into Camper’s face.
+<br />— <b>Even the dogs don’t like your music taste, loser. Try turning on something DECENT like chiptune or something.</b> — Socio sneered in their host’s ear.
+<br />— <b>I hate chiptune.</b> — Not paying too much attention to the AI, the elf replied while scrolling through his scarce music library.
+<br />— <b>Oh is that so? Maybe I can play it in your brain if you don’t like it so much?</b> — With a cheeky chuckle, Socio’s voice faded.
+<br />— <b>It’s not even real music!</b> — Orkan frowned, trying to find something with a different genre within his tracks.
+<br />
+Just as they had said, though, Socio started playing some low-quality chiptune right in Orkan’s mechanical part of his brain. It wouldn’t be that bad if the music wasn’t actually hurting his head.
+<br />— <b>OW! Ouch! Agh, okay, okay! Stop that!</b> — He tried to close his ears, forgetting that it didn’t work with Socio.
+<br />— <b>Say you was wrong and you’re a fucking loser!</b> — The music intensified, each beat like a needle in the brain.
+<br />— <b>UGH! Ok! I was WRONG and I’m a… A loser!</b> — Orkan closed his eyes shut, even though the pain was bearable, it was quite intense.
+<br />— <b>Nuh uh, a FUCKING loser! Say the word!</b> — Socio laughed at the elf’s distress.
+<br />— <b>UGRH! OKAY! I’m a fucking loser! Is that alright!?</b> — With a distressed frown, Orkan shouted.
+<br />— <b>Hehe. Since I’m so merciful and kind I’ll spare your eardrumsies for now. Hearing you say how much of a nobody you are brings me so-o-o much joy!</b> — The AI made sure to make a final loud “beep” before finally finishing their torture and disappearing.
+<br />
+A minute later, Orkan’s headache stopped as well and he remembered the task at hand. Both borzois were now looking at him with even more interest, slightly confused by the guest’s behaviour.
+<br />— <b>Mmph, music. Right.</b> — He checked his music library again and noticed one classical piece, not quite remembering when he downloaded it. — <b>Hm… Maybe this one will be more enjoyable to you?</b>
+<br />
+Classical music started playing… The dogs’ reaction seemed the same until Nevada’s tail started wagging slightly. Maybe it wasn’t even because of the music itself, but Orkan still counted it as a win.
+<br />— <b>Classical music? Mm… Not particularly my thing… Maybe you’d give something I actually like another shot?</b> — With a little hope he turned on one of the drum and bass tracks and Nevada stopped wagging her tail completely. — <b>Hmph, whatever.</b>
+<br />
+With the second task done, only one was left - finding the vault’s password.
+</p>
+<br /><br /><br />
+<hr />
+<p>
+The elf was almost sure this was one of Edward’s tricks and it would actually be hidden somewhere, under some vase or behind a painting.
+<br />
+First of all he decided to see the vault with his own eyes and to do that he walked upstairs to the second floor. On the wall right in front of the staircase was a big oil portrait of Edward’s dogs. This man seemed to love these two with all of his heart… Not quite something you would expect from a mafia boss that practically rules most of the city, so seeing this nicer side of him felt weird. Orkan spent a minute regarding the painting and after that continued his search for the vault. Fortunately, the door to it was so big that it was impossible not to notice it at first glance, so the elf approached it, noticing the screen nearby. The monitor displayed a text, asking for the password.
+<br />— <b>Mhm… Now I just need to think about what it could be.</b> — He thoughtfully rubbed his chin.
+<br />
+Of course the most obvious variants were the names of Edward’s dogs, but after trying both of them without any success Orkan tried some more options like “Mafia”, “Dog”, “Pink”, “Red Roses” and even Edward’s own name. Yet, none of them worked, and the vault door remained locked.
+<br />— <b>Damn, I don’t even know… Hmm… Okay, then I’ll just search everywhere I can before I find any hints.</b> — With a shrug, the merc stepped away from the vault door.
+<br />
+With that his search began. Orkan was checking almost everywhere a hint could be hidden, he looked under every movable object he could lift, behind every painting he could shift and inside every storage space he could open, but none of it helped.
+<br />
+After walking around the open areas of the mansion three times in a row the elf finally gave up, he was frustrated to the point he just wanted to leave and never return. What kind of task is that?! Go god knows where, search for god knows what without any help! And if it was just a joke and Edward didn’t even expect Orkan to search then it was even more infuriating! The joke was stupid! Everything was stupid and didn’t make any sense!
+<br />
+Orkan sat in front of the vault door, glaring at it as if that could make it open. He didn’t even want to think about the password anymore, even a little thought was enough to make the mercenary even more angry and frustrated. And the words Edward said to him while giving this task! “Don’t try to get out of this with “I’m stupid and lame”.”… How insulting! Calling him stupid and lame just because of something he possibly couldn’t do?! Orkan was repeating the words in his thoughts again and again, offended.
+<br />— <b>Pfft… Don’t try to get out… Don’t try…</b> — He paused, his mind racing. — <b>But it’s just stupid!</b>
+<br />
+Standing up from the floor, Orkan walked closer to the screen and hesitantly typed “I’m stupid and lame” there, without much hope… But surprisingly, something within the door clicked and it opened. The elf was standing in front of it with a deeply confused and offended face.
+<br />— <b>HAHAHAHA! HE GOT YOU! I knew it from the very beginning and you didn’t even get it! YOU ARE REALLY STUPID, WOW… Lol, whew!</b> — Socio was exploding with laughter. — <b>I can’t believe you didn’t get this bit!</b>
+<br />— <b>It doesn’t make any sense.</b> — Orkan frowned, but his interest in what was inside the vault overrode his frustration.
+<br />
+He took a step into the vault, looking at its contents. To his disappointment, there weren’t many items, just a couple of paintings and what seemed like a dusty guitar. Orkan was sure there would be lots and lots of valuable stuff, maybe even something he could snatch and sell… But the paintings were too big to fit into his pockets, as well as the guitar.
+<br />
+As if he was summoned, the owner of this mansion returned home right when Orkan finished all three tasks.
+<br />— <b>Oh, you even opened the vault door. How impressive!</b> — Approaching the door, Edward said. — <b>One question though, why are my dogs heavier than they were before I went outside?</b>
+<br />— <b>I don’t know, maybe they ate something? I was busy and I wasn’t able to check everything they did.</b> — Orkan let out a nervous chuckle, hoping Edward would believe his lie.
+<br />— <b>Really? Nice to know that my girls can find the food by themselves, even though the only bag of dog food in the house was occupied by you. Truly, a miracle!</b> — Edward laughed without any malice or anger in his voice, which made Orkan exhale with relief. — <b>Alright, before you tell me the details, I’d like to ask you for one more simple thing - just make me a cappuccino.</b>
+<br />
+With a playful smirk, Edward made his way to his office, leaving his guest alone again.
+<br />— <b>Uh… Ok, sure. Doesn’t sound too hard.</b> — Orkan shrugged.
+<br />
+In a slightly better mood now that this nonsense seemed to be nearing its end, he walked downstairs to the kitchen where the coffee machine was located. The elf didn’t know how the machine worked, but there were clear instructions on its screen so he just followed them.
+<br />— <b>Hey, your coffee is done.</b> — Orkan peeked into the office, a cup of hot cappuccino in his hand.
+<br />— <b>Oh, thank you.</b> — Edward smiled. — <b>But I don’t like cappuccino.</b>
+<br />— <b>What? But you asked me to…</b> — With a confused face, Orkan glanced at the cup in his hand.
+<br />— <b>I forgot! Just make me a latte instead.</b> — Edward replied with a playful tone.
+<br />
+He had no choice but to go back again and make another cup of coffee.
+<br />— <b>I’ve made your latte.</b> — The merc stepped into the room, ready to give the cup.
+<br />— <b>I asked for raf.</b> — Edward wasn’t looking at Orkan, he was busy reading a fashion magazine.
+<br />— <b>Raf?…</b> — Orkan tilted his head, completely baffled.
+<br />— <b>Yea-yea. Make it for me.</b> — Edward glanced at the poor guy, barely holding his grin.
+<br />
+Slightly annoyed, Orkan had to go downstairs for the third time. With a cup of raf in his hand he entered the office once again, placing it on Edward’s table.
+<br />— <b>Here.</b> — He crossed his arms, showing that he wasn’t ready to repeat the process again.
+<br />— <b>What is it?</b> — Edward raised one eyebrow, watching his errand boy.
+<br />— <b>It’s raf, the coffee you asked for?</b> — With a slight irritation in his voice, Orkan replied.
+<br />— <b>What?</b> — Edward made it look like he didn’t hear the reply.
+<br />— <b>Raf.</b> — The elf scratched the back of his head.
+<br />— <b>Repeat it three more times.</b> — Edward sneered.
+<br />— <b>Raf raf raf?</b> — Orkan said with the most confused tone, not understanding the request.
+<br />— <b>Good boy!</b> — With a wide grin on his face, Edward laughed - the joke was successful.
+<br />
+The meaning of it came to Orkan after a couple of seconds, which made him smile awkwardly. He tried to not show that he didn’t quite like being embarrassed like that.
+<br />— <b>I LOVE THIS DUDE! Fuck! Why was I put into your head instead of HIS? He’s so much more badass than you!</b> — Socio was laughing as well. At least they finally found something in this world that they liked!
+<br />— <b>Alright, you know what? I don’t want coffee anymore, I think some tea would work better for me.</b> — Before Orkan could protest, Edward continued. — <b>It’s actually dinner time and as a good host, I’m inviting you.</b>
+<br />— <b>Eck, thank you?</b> — The mercenary wasn’t sure if it was a good sign or not.
+</p>
+<br /><br /><br />
+<hr />
+<p>
+Expecting the guest to follow, Edward stood up and with an upbeat whistle he headed to the kitchen.
+</p>
+<p>
+Once they arrived there, Edward quickly stopped Orkan from going to the fridge by grabbing his wrist.
+<br />— <b>I thought you wanted me to cook something?</b> — The elf raised an eyebrow, questioning.
+<br />— <b>How hospitable would I be if I didn’t even cook something for dinner? So, just sit.</b> — Edward let go of Orkan’s wrist.
+<br />
+With an awkward face, the guest sat at the dining table while Edward began preparing the ingredients. He wasn’t sure if he should just sit without a word or say something… It’s not every day that you get to dine with someone as significant as Edward Kitt. After all, Orkan just picked the safest option - to sit still and not open his mouth.
+<br />
+One more hour passed in complete silence before Edward placed two plates with salmon tartare on the table. The dish looked like it was made by a professional - small pieces of fish, avocado and cucumber mixed together in a circular shape. One small downside was the elven diet, which didn’t allow them to eat any animal products, including fish.
+<br />
+Edward sat down at the table as well with a content smile on his face.
+<br />— <b>Do you pray before meals?</b> — He took a moment, respectfully waiting for his guest’s answer.
+<br />— <b>No, I don’t.</b> — Orkan sighed. — <b>I’m really sorry, but I don’t think I’ll be able to try the food. You see, elves can’t…</b>
+<br />— <b>I know what you can and what you can’t and I insist on eating anyway.</b> — Edward’s voice was strict, not leaving any space for disagreement.
+<br />— <b>If you say so…</b> — Tentatively taking some of the tartare on a fork, Orkan placed the food in his mouth.
+<br />
+The taste of fish was completely unfamiliar to him, so it seemed strange at first. Never in his life had he tried anything like this before! After a couple more seconds Orkan realised that he actually liked fish.
+<br />— <b>Well, how do you like it?</b> — Edward started eating as well.
+<br />— <b>It’s good! I had no idea fish tastes so good! And I don’t even feel anything weird after eating it, I’m quite shocked. Maybe it’s because my stomach is mechanised now…</b> — Good food made Orkan smile. It felt nice to finally relax.
+<br />— <b>Is it? You know, the main reason why I even invited you here was your revival. It’s not the first time in history that a person’s life has been brought back with machinery, but it still doesn’t happen too often. What was it like to die?</b> — Edward was looking at his plate to not make it too uncomfortable for his guest to answer.
+<br />— <b>I don’t remember, honestly.</b> — Orkan shrugged. — <b>All I remember is a brief moment when it happened and then I was alive again.</b>
+<br />— <b>Do you remember anything from the afterlife? That’d be interesting to hear.</b> — With a genuine interest, Edward asked.
+<br />— <b>Ehh… No, not really. I’m sure I’d remember something if it was there but… Yeah.</b> — Trying not to think about that too much, the elf continued eating.
+<br />— <b>Well, that’s anticlimactic. But alright.</b> — Edward sighed.
+<br />— <b>Mhm, and after all of that I’ve got the AI in my head that makes me say some stuff, just like earlier today… I’ve said it wasn’t me because it was them! Uh…</b> — After a moment of awkward silence, Orkan spoke again, trying to change the topic. — <b>Anyway, what is it like to be a mafia boss? Like, is it hard?</b>
+<br />— <b>Me? Boss? Who told you that?</b> — Edward chuckled, he knew it wasn’t a secret to anyone. — <b>No, it’s not. It brings me a lot of money and I don’t even do all the dirty work.</b>
+<br />— <b>How did you become a boss? I just have no idea how all of this works.</b> — Orkan looked at Edward with interest.
+<br />— <b>It’s a long story, but not for your ears.</b> — Without much emotion, Edward replied. — <b>Tell me more about that hologram of yours. Can it be anything or just yourself?</b>
+<br />— <b>Oh, hm, I hadn’t thought about it much, actually. Maybe?</b> — Orkan focused on something else for his hologram, but it just glitched out. — <b>Eh. Well I think it can be changed to something else but it needs practice.</b>
+<br />— <b>Sounds interesting, it’s a really well-executed technology.</b> — Edward gave his guest a nod of approval. — <b>And what’s underneath it?</b>
+<br />— <b>Metal.</b> — The merc turned off the hologram for a couple of seconds before turning it on again. — <b>My, uh, friend did it. I can give you his contacts.</b>
+<br />— <b>No need to, I don’t think I want to get my chrome installed in some dirty alley, surely I have enough money to afford someone better than whoever you had.</b> — Edward smirked. — <b>Especially if I had to be split in half to get his service.</b>
+<br />— <b>Haha… Yeah.</b> — With an awkward chuckle, Orkan decided to focus on food to not talk about his own death anymore.
+</p>
+<br /><br /><br />
+<hr />
+<p>
+The dinner ended. Edward stood up from the table, clapping his hands together.
+<br />— <b>Well, well, it’s getting quite late already! It’s time for you to go home.</b> — He smiled.
+<br />— <b>You’re right. Can you help me, uhh, call a taxi or something, please? I don’t have an internet connection here so…</b> — Shifting from one foot to the other, Orkan hoped he would understand.
+<br />— <b>You’ll return home the same way you arrived here.</b> — Edward replied with a serious face.
+<br />— <b>Oh, okay. I’ll go then?</b> — The elf hesitantly turned to leave the house.
+<br />— <b>Without the payment? Well, if you don’t need the money…</b> — Edward grinned, pulling a couple of banknotes from his pocket.
+<br />— <b>No, I need them!</b> — Orkan turned on his heels after hearing the word “payment”.
+<br />— <b>That’s more like it.</b> — Edward handed 2000 dollars in cash. — <b>Don’t spend it on something stupid.</b>
+<br />— <b>Thank you!</b> — The mercenary took the money, shoving it into his pocket. — <b>No, really, thank you! That’s a lot, I don’t even know how to…</b>
+<br />— <b>Just go home before I decide otherwise.</b> — With a cheeky smile, Edward gave Orkan a goodbye nod, declaring the end of the conversation.
+<br />
+He didn’t have to say it twice, Orkan rushed out of the mansion.
+</p>
+<p>
+On his way home he was thinking about everything that happened that day, the good and the bad and decided that it was worth it. This money would be enough to buy some nice clothes and trinkets! And pay the rent, of course. And getting to know Edward more personally made Orkan feel special, maybe if he tried hard enough they might even become friends? The thought was silly, but he thought his past life status might still mean something. That’d be nice…
 </p>
 <br />
 `;
