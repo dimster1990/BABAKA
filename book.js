@@ -2,8 +2,8 @@ const _book_page_ =
 [
     _chapter_the_death,
     _the_rebirth,
-    "asdasd2",
-    "asdasd3"
+    _the_gunsmith,
+    _the_boss,
 ];
 let _book_page_name = 
 [
@@ -40,7 +40,13 @@ let _book_side_image_ids =
     ["001_01_the_death"],           //chapter 0
     ["002_01_the_rebirth"],         //chapter 1
     ["no_image_available"],         //chapter 2
-    ["no_image_available"]
+    ["no_image_available"],         //chapter 3
+    ["no_image_available"],         //chapter 4
+    ["no_image_available"],         //chapter 5
+    ["no_image_available"],         //chapter 6
+    ["no_image_available"],         //chapter 7
+    ["no_image_available"],         //chapter 8
+    ["no_image_available"]          //chapter 9
 ];
 let _book_side_image_id_changer = 0;
 
