@@ -4,6 +4,12 @@ const _book_page_ =
     _the_rebirth,
     _the_gunsmith,
     _the_boss,
+    _nice_new_place,
+    _the_discord,
+    _almost_had_it,
+    _evening_talk,
+    _alive_once_again,
+    _kindness,
 ];
 let _book_page_name = 
 [
@@ -30,6 +36,28 @@ let _book_page_name =
             "Evening talk",               //7
             "Alive, once again",          //8
             "Kindness"                    //9
+        ]
+    ],
+     [
+        "BODY",
+        [
+            "(side) Apology present",     //10
+            "Friends’ reunion",           //11
+            "Photos search",              //12
+            "Unwanted guest",             //12
+            "A brother in misfortune",    //13
+            "The dragon",                 //14
+            "(side) A new holiday",       //15
+            "The Day of the Day",         //16
+            "Backpack heist",             //17
+            "Unexpected kinship",         //18
+            "Día de Muertos",             //19
+            "The missing part",           //20
+            "The News",                   //21
+            "Nothing",                    //22
+            "Walking around",             //23
+            "(side) “Closed for maintenance”",//24
+            "The answers",                //25
         ]
     ]
 ];
